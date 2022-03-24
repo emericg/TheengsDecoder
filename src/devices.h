@@ -30,6 +30,7 @@
 #include "devices/H5075_json.h"
 #include "devices/H5102_json.h"
 #include "devices/HHCCJCY01HHCC_json.h"
+#include "devices/HHCCPOT002_json.h"
 #include "devices/IBS_TH1_json.h"
 #include "devices/IBS_TH2_json.h"
 #include "devices/IBT_2X_json.h"
@@ -61,6 +62,7 @@
 
 const char* _devices[][2] = {
     {_HHCCJCY01HHCC_json, _HHCCJCY01HHCC_json_props},
+    {_HHCCPOT002_json, _HHCCPOT002_json_props},
     {_VEGTRUG_json, _VEGTRUG_json_props},
     {_LYWSD02_json, _LYWSD02_json_props},
     {_LYWSDCGQ_json, _LYWSDCGQ_json_props},
